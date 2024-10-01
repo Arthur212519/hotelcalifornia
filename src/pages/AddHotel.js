@@ -1,4 +1,4 @@
-// src/pages/AddHotel.js
+
 import React, { useState } from 'react';
 import styles from '../style.module.css';
 
@@ -29,7 +29,6 @@ const AddHotel = () => {
     storedHotels.push(hotel);
     localStorage.setItem('hotels', JSON.stringify(storedHotels));
 
-    // Limpar os campos após adicionar
     setName('');
     setState('');
     setCity('');

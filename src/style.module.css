@@ -1,4 +1,4 @@
-/* src/style.module.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -97,14 +97,11 @@ body {
   }
   
   .dark {
-    background-color: #121212; /* Cor de fundo escuro */
-    color: white; /* Cor do texto claro */
+    background-color: #121212; 
+    color: white; 
   }
-  
 
-  /* src/style.module.css */
 
-/* Estilos existentes... */
 
 .hotelDetail {
     max-width: 800px;
@@ -112,7 +109,7 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: white; /* Cor de fundo para o detalhe do hotel */
+    background-color: white; 
   }
   
   .hotelDetail img {
@@ -150,9 +147,9 @@ body {
     background-color: #357ab8;
   }
   
-  /* src/style.module.css */
+ 
 
-/* Estilos existentes... */
+
 
 .removeButton {
     background-color: #e74c3c;
@@ -170,8 +167,8 @@ body {
   
 
 .darkMode {
-    background-color: #333; /* Cor de fundo escuro */
-    color: white; /* Cor do texto em modo escuro */
+    background-color: #333;
+    color: white; 
   }
   
   .hotelDetail {
@@ -180,11 +177,11 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #9f9999; /* Cor de fundo padrão */
+    background-color: #9f9999; 
   }
   
   .hotelDetail.darkMode {
-    background-color: #444; /* Cor de fundo escuro para detalhes */
-    border-color: #555; /* Muda a cor da borda no modo escuro */
+    background-color: #444; 
+    border-color: #555; 
   }
   

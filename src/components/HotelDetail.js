@@ -1,9 +1,8 @@
-// src/pages/HotelDetail.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from '../style.module.css';
 
-const HotelDetail = ({ darkMode }) => { // Adicione a prop darkMode
+const HotelDetail = ({ darkMode }) => { 
   const { id } = useParams();
   const [hotel, setHotel] = React.useState(null);
 

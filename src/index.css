@@ -1,12 +1,11 @@
-/* src/index.css */
 
 body {
   transition: background-color 0.3s, color 0.3s;
-  background-color: white; /* Cor de fundo padrão */
-  color: black; /* Cor do texto padrão */
+  background-color: white; 
+  color: black; 
 }
 
 body.dark {
-  background-color: #121212; /* Cor de fundo escuro */
-  color: white; /* Cor do texto claro */
+  background-color: #121212; 
+  color: white; 
 }
